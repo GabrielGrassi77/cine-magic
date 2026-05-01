@@ -1,2 +1,65 @@
-# cine-magic
-Página web que busca informações de filmes usando a API do TMDB
+# 🎬 CineMagic API Filmes
+
+O **CineMagic API Filmes** é uma aplicação web que consome a API da **:contentReference[oaicite:0]{index=0}** para buscar e exibir informações de filmes em tempo real, a partir do nome pesquisado pelo usuário.
+
+---
+
+## 🔎 Sobre o projeto
+
+Este projeto permite pesquisar filmes e visualizar detalhes como:
+- Título do filme
+- Sinopse
+- Data de lançamento
+- Idioma original
+- Nota média
+- Pôster oficial
+
+---
+
+## 🚀 Funcionalidades
+
+- Busca de filmes por nome
+- Exibição dinâmica dos resultados
+- Tratamento para “nenhum resultado encontrado”
+- Consumo de API externa (TMDB)
+- Interface simples e funcional
+
+---
+
+## 🛠️ Tecnologias utilizadas
+
+- HTML5
+- CSS3
+- JavaScript (Vanilla JS)
+- Fetch API
+- API TMDB
+
+---
+
+## 🔑 Como usar a API
+
+O projeto utiliza uma chave da API do TMDB.
+
+No arquivo `script.js`, substitua:
+
+```javascript
+const apiKey = "SUA_API_KEY_AQUI";
+
+```crie sua chave em
+https://www.themoviedb.org/
+
+
+---
+
+## 📁 Estrutura do projeto
+
+📦 cinemagic-api-filmes
+┣ 📂 css
+┃ ┗ style.css
+┣ 📂 img
+┃ ┣ Logo.png
+┃ ┗ objts.png
+┣ 📂 js
+┃ ┗ script.js
+┣ index.html
+┣ README.md
